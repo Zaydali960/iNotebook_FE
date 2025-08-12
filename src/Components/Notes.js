@@ -45,7 +45,8 @@ const hasFetched = useRef(false)
     const data = await response.json(); 
     console.log(data)
     setNotes(notes.concat(data))
-  }
+  } 
+  
   const handleClick = (e)=>{
     e.preventDefault()
     refClose.current.click();
