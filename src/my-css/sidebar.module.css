@@ -1,0 +1,55 @@
+.sidebar{
+    position: fixed;
+    left: 20px;
+    top: 100px;
+    height: 100%; 
+    width: 77px;
+    /* width: 60px;     Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.763);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 33px;
+    color: white;
+}
+.para1{
+    font-size: 12px;
+    margin-left: 3px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.para2{
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.para3{
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.para4{
+    font-size: 12px;
+    margin-left: 6px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;  /* Removes underline */
+  color: white; 
+}
+.box{
+    margin-left: 12px
+}
